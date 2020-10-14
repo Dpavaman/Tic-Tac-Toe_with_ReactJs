@@ -1,0 +1,75 @@
+body{
+    background-color: #008CBA;
+}
+
+.container{
+    display: grid;
+    grid: 85px 85px 85px / 85px 85px 85px ;
+    gap: 5px;
+    margin: 120px auto ;
+    background-color: #845BB3;
+    width: calc(3 * 85px + 2* 5px);
+    height: calc(3 * 85px + 2* 5px);
+
+}
+
+.container > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #008CBA;
+    width: 85px;
+    height: 85px;
+    transition: 1.5s;
+    cursor: pointer;
+
+}
+
+.winner{
+    background-color:   #ed8a63 !important;
+}
+
+
+.declare{
+    font-family: sans-serif;
+}
+
+.name{
+    font-family: cursive;
+    color: white;
+}
+
+.reset{
+    width: fit-content;
+    position: absolute;
+    transition: 0.5s;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    font-size: large;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #008CBA;
+}
+
+.reset:hover{
+    background-color: #008CBA;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5ps;
+}
+
+
+.header
+{
+    margin-left: 45%;
+    font-size: 35px;
+    font-family: cursive;
+    font-style: italic;
+    text-decoration: underline;
+}
